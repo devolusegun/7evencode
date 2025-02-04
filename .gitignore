@@ -1,0 +1,30 @@
+# Ignore all .log files
+*.log
+
+# Ignore all .env files (commonly used for environment variables)
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build and cache folders
+dist/
+build/
+.cache/
+
+# Ignore specific files
+secrets.txt
+config.yaml
+
+# Ignore all files in a directory
+private_data/
+
+# Ignore a specific file type
+*.tmp
+*.swp
+
+# Ignore the .vscode folder (if using VS Code)
+.vscode/
+
+# Ignore database files
+*.sqlite3
