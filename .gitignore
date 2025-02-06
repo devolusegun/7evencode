@@ -15,9 +15,11 @@ build/
 # Ignore specific files
 secrets.txt
 config.yaml
+settings.py
 
 # Ignore all files in a directory
 private_data/
+logmysql/
 
 # Ignore a specific file type
 *.tmp
