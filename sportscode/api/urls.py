@@ -6,6 +6,7 @@ from .views import (
 )
 
 urlpatterns = [
+
     #BettingcodeEndpoints
     path('betting-codes/', BettingCodeListCreate.as_view(), name='betting-code-list-create'),
     path('betting-codes/<int:pk>/', BettingCodeRetrieveUpdateDestroy.as_view(), name='betting-code-retrieve-update-destroy'),

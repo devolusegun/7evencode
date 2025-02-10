@@ -1,5 +1,6 @@
-from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.db import models
+
 
 # User Model
 class User(AbstractUser):
@@ -18,7 +19,7 @@ class BettingCode(models.Model):
 #Messages Model
 class Message(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    message = models.TextField
+    message = models.TextField()
     sent_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
